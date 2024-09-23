@@ -21,8 +21,8 @@ substitutions:
 
 esphome:
   name: $name
-  platform: ESP8266
-  board: d1_mini
+  platform: ESP32
+  board: nodemcu-32s
 
   # Automatically add the mac address to the name
   # so you can use a single firmware for all devices
